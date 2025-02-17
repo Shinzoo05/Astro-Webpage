@@ -1,10 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Daily Horoscope</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="circle.webp">
 </head>
 <body>
     <h1>(Check Your Daily Horoscope)</h1>
@@ -26,13 +25,12 @@
     </select>
 
     <button onclick="showHoroscope()">Get Horoscope</button>
-
     <button onclick="location.href='compatibility.html'">Check Compatibility 💖</button>
-    <!-- Styled box for horoscope output -->
-    <div id="horoscope-box">
-        <p id="horoscope"></p>
+
+    <!-- Box me {horoscope output} -->
+    <div id="horoscope-box">       <!--THIS DIV MAkes it EASIER TO ADD COLOR,PADING,BORDER,MARGIN to the Box-->
+        <p id="horoscope"></p>       
     </div>
-    <p id="horoscope"></p>
     <script src="script.js"></script>
 </body>
 </html>
